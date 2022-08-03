@@ -19,4 +19,4 @@ def predict():
     return render_template('page.html',prediction_display_area='Predicted Price is ：{}'.format(predict_outcome))
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run
